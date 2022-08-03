@@ -1,0 +1,407 @@
+ ntuser.dat.LOG2
+ ntuser.ini
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~
+$ cd desktop
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop
+$ git repository
+git: 'repository' is not a git command. See 'git --help'.
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop
+$ cd
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~
+$ cd learn_git
+bash: cd: learn_git: No such file or directory
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~
+$ cd Bureau
+bash: cd: Bureau: No such file or directory
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~
+$ cd desktop
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop
+$ cd learn_git
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git
+$ git init
+Initialized empty Git repository in C:/Users/lenovo/Desktop/learn_git/.git/
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git statuts
+git: 'statuts' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        third.txt.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git commit -m"adding third.txt"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@DESKTOP-0F302V0.(none)')
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git config --global user.email "fahedargoubi05@gmail.com
+> git config--global ueser.name "fahed"
+> git commit -m"adding third.txt"
+> ^C
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git config -- global user.email"fahedargoubi05@gmail.com"
+error: key does not contain a section: global
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git config --global user.email"fahedargoubi05@gmail.com"
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git config -- global user.name "fahed"
+error: key does not contain a section: global
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git config --global user.name "fahed"
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git commit -m"adding third.txt""
+> ^C
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git commit -m"adding third.txt"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@DESKTOP-0F302V0.(none)')
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git commit -m"adding third.txt"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@DESKTOP-0F302V0.(none)')
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git commit"adding third.txt.txt
+> ^C
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git commit"adding third.txt.txt"
+git: 'commitadding third.txt.txt' is not a git command. See 'git --help'.
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git commit -m"adding third.txt.txt"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@DESKTOP-0F302V0.(none)')
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git commit -m"adding third.txt.txt"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@DESKTOP-0F302V0.(none)')
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git add third.txt.txt
+fatal: pathspec 'third.txt.txt' did not match any files
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git add third.txt
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git commit -m"adding third.txt.txt"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@DESKTOP-0F302V0.(none)')
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git remote add origin https://github.com/Fahedargoubi/fahd.git
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git commit -m "adding third.txt.txt"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@DESKTOP-0F302V0.(none)')
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git config --global user.email "you@example.com"
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$   git config --global user.name "Your Name"
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$  git config --global user.email "you@example.com"
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git config --global user.email fahedargoubi05@gmail.com
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git config --global user.name "fahd"
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git commit -m "adding third.txt.txt"
+[master (root-commit) 76927b7] adding third.txt.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 third.txt
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git add fourth.txt
+fatal: pathspec 'fourth.txt' did not match any files
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git add fourth.txt.
+fatal: pathspec 'fourth.txt.' did not match any files
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git add fourth.txt
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git commit -m"adding fourth.txt.
+> git commit -m"adding fourth.txt
+[master 997704f] adding fourth.txt. git commit -madding
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 fourth.txt
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$
+Display all 5123 possibilities? (y or n)
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git add .
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git commit -m"removing third.txt"
+[master 62302c4] removing third.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 third.txt
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git log
+commit 62302c4149846f1c0e46e221789ac812c4dbcc79 (HEAD -> master)
+Author: fahd <fahedargoubi05@gmail.com>
+Date:   Wed Aug 3 10:43:41 2022 +0100
+
+    removing third.txt
+
+commit 997704fca4d2a6cc0a5c3631a68642c665edf11e
+Author: fahd <fahedargoubi05@gmail.com>
+Date:   Wed Aug 3 10:35:45 2022 +0100
+
+    adding fourth.txt.
+    git commit -madding
+
+commit 76927b7db25fa7360d05bf6eac6c24e7da426d35
+Author: fahd <fahedargoubi05@gmail.com>
+Date:   Wed Aug 3 10:24:40 2022 +0100
+
+    adding third.txt.txt
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$  git config --global core.pager 'cat'
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ config --global
+bash: config: command not found
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ config --global
+bash: config: command not found
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git config --global
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <type>     value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ ^C
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git --list
+unknown option: --list
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git --list global
+unknown option: --list
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=fahd
+user.email=fahedargoubi05@gmail.com
+core.pager=cat
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/Fahedargoubi/fahd.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+lenovo@DESKTOP-0F302V0 MINGW64 ~/desktop/learn_git (master)
+$
